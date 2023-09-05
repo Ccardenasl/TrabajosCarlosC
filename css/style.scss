@@ -58,27 +58,20 @@
       }
     }
   }
-  
-  .footer1{
+    
+  }
+
+.footer1{
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px 50px 20px 50px;
-    background: #fff;
+    justify-content:end;
+    align-items: end;
+    padding: 20px 50px 0px 0px;
+    // background: #fff;
     width: 100vw;
     font-size: 2rem;
-    position: fixed;
-    transform: translateY(550px);
-    div{
-      
-      span{
-        .redes{
-          color:#ff5c4c;
-          cursor: pointer;
-        }
-      }
-
-    }
+    // position: fixed;
+    // transform: translateY(550px);
+   
     .footer1-whatsapp{
       
       color: #fff;
@@ -97,16 +90,13 @@
       span{
         a{
           i{
-            color: #fff
-          };
+            color: #fff;
+          }
         }
       }
 
     }
-  }
-
-    
-  }
+}
 
 
 .cuerpo2 {
@@ -149,19 +139,23 @@
 
 .cuerpo3 {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   padding-bottom: 100px;
-  background: url(../img/foto3.png) center/ cover;
+  background: url(../img/foto3.png) no-repeat center/ cover;
+
   background-color: black;
   gap: 50px;
+  // height: 100vh;
+  
+  
 
   .cuerpo3-texto {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    padding-top: 120px;
+    padding-top: 10vh;
 
     .elige {
       font-weight: bolder;
@@ -229,13 +223,17 @@
   align-items:center;
   flex-direction: column;
   background-color: #1c1c1c;
+  display: inline-block;
+  padding-top: 10vh;
   height: 100vh;
-  gap: 50px;
+  // gap: 50px;
   
 
   .cuerpo5-texto{
-    width: 60vw;
+    width: 90vw;
     padding-top: 50px;
+    padding-left: 10vw;
+    padding-bottom: 10vh ;
     color: #fff;
     
   }
@@ -247,7 +245,7 @@
     align-items: center;
     padding: 50px;
     padding-left: 15vw;
-    padding-bottom: 20vh;
+    
     .fondodatos{
       color: #fff;
       display: flex;
@@ -262,12 +260,22 @@
       .correo{
         font-size: 0.8rem;
       }
-
-      
-      
-
     }
   }
+  .fondoCopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00bb90;
+    padding: 20px;
+    height: 20vh;
+
+    .copy{
+    color: #fff;
+    font-size: 0.8rem;
+    
+    }
+   }
 }
 
 

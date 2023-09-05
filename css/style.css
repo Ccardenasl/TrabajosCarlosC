@@ -45,22 +45,16 @@
   background: #fdba00;
   border: none;
 }
-.cuerpo1 .footer1 {
+
+.footer1 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px 20px 50px;
-  background: #fff;
+  justify-content: end;
+  align-items: end;
+  padding: 20px 50px 0px 0px;
   width: 100vw;
   font-size: 2rem;
-  position: fixed;
-  transform: translateY(550px);
 }
-.cuerpo1 .footer1 div span .redes {
-  color: #ff5c4c;
-  cursor: pointer;
-}
-.cuerpo1 .footer1 .footer1-whatsapp {
+.footer1 .footer1-whatsapp {
   color: #fff;
   background: #00bb90;
   width: 50px;
@@ -75,7 +69,7 @@
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
-.cuerpo1 .footer1 .footer1-whatsapp span a i {
+.footer1 .footer1-whatsapp span a i {
   color: #fff;
 }
 
@@ -112,11 +106,11 @@
 
 .cuerpo3 {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   padding-bottom: 100px;
-  background: url(../img/foto3.png) center/cover;
+  background: url(../img/foto3.png) no-repeat center/cover;
   background-color: black;
   gap: 50px;
 }
@@ -124,7 +118,7 @@
   display: flex;
   flex-direction: column;
   width: 80vw;
-  padding-top: 120px;
+  padding-top: 10vh;
 }
 .cuerpo3 .cuerpo3-texto .elige {
   font-weight: bolder;
@@ -185,12 +179,15 @@
   align-items: center;
   flex-direction: column;
   background-color: #1c1c1c;
+  display: inline-block;
+  padding-top: 10vh;
   height: 100vh;
-  gap: 50px;
 }
 .cuerpo5 .cuerpo5-texto {
-  width: 60vw;
+  width: 90vw;
   padding-top: 50px;
+  padding-left: 10vw;
+  padding-bottom: 10vh;
   color: #fff;
 }
 .cuerpo5 .cuerpo5datos {
@@ -201,7 +198,6 @@
   align-items: center;
   padding: 50px;
   padding-left: 15vw;
-  padding-bottom: 20vh;
 }
 .cuerpo5 .cuerpo5datos .fondodatos {
   color: #fff;
@@ -216,6 +212,18 @@
   font-size: 1.5rem;
 }
 .cuerpo5 .cuerpo5datos .fondodatos .correo {
+  font-size: 0.8rem;
+}
+.cuerpo5 .fondoCopy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00bb90;
+  padding: 20px;
+  height: 20vh;
+}
+.cuerpo5 .fondoCopy .copy {
+  color: #fff;
   font-size: 0.8rem;
 }
 
